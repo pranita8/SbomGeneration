@@ -17,7 +17,13 @@
         <module>module1</module>
         <module>module2</module>
     </modules>
-    
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>5.2.3</version>
+        </dependency>
+    </dependencies>
     <build>
         <plugins>
             <!-- CycloneDX Maven Plugin to generate SBOM -->
